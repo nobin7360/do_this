@@ -45,6 +45,80 @@
 
 /* Navbar design */
 
+.nav{
+    position: sticky;
+    top: 0;
+    padding: 0 20px;
+    background-color: white;
+    border: 1px solid rgb(180, 177, 177);
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.header-main1 img{
+    max-width: 200px;
+    width: 100%;
+    max-height: 100px;
+    min-height: 60px;
+}
+.header-main2 a{
+    text-decoration: none;
+    color: black;
+    font-family: Hind Siliguri, sans-serif;
+    font-size: .9rem;
+    font-weight: 600;
+}
+.header-main3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.user{
+    display: flex;
+}
+
+.app-search {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ff0080;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 40px;
+}
+.app-search input {
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    flex: 1;
+    font-size: 14px;
+}
+.app-search button {
+    background-color: #ff0080;
+    border: none;
+    height: 100%;
+    width: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app-search button i {
+    color: white;
+    font-size: 16px;
+}
+
+
 /* Footer design */
 
 .foot{
