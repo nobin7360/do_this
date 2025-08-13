@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Mini-bar design */
+
+.mini-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-weight: 400;
+}
+.bar-box{
+    padding: 4px 20px;
+    color: #fffc;
+}
+.item2{
+    color: white;
+}
+
+/* About section design */
+.about{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    padding: 20px 10px;
+    background-color: #e8007c;
+}
+.box{
+    display: block;
+    width: 100%;
+    font-family: Hind Siliguri, sans-serif;
+    color: #fff;
+    font-weight: 300;
+}
+.divider{
+    display: block;
+    background-color: #ffffff4d;
+    height: 3px;
+    width: 100%;
+    max-width: 30px;
+    margin: 1em 0;
+}
+
+/* Navbar design */
+
+/* Footer design */
+
+.foot{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    padding: 25px 30px;
+}
+
+.itm1{
+    display: flex;
+    gap: 15px;
+}
+.foot a{
+    text-decoration: none;
+}
+.itm1 a{
+    color: rgba(77, 75, 75, 0.8);
+}
+.itm2 {
+    color: rgb(74, 73, 73);
+    
+}
+.itm3{
+    color: #51514f;
+    font-weight: 600;
+}
