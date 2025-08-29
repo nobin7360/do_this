@@ -213,3 +213,221 @@
     text-decoration: none;
 }
 
+
+
+/* slider container code ---one*/
+
+.slider-container1 {
+    transform: translateY(-150px);
+    margin-left: 10px;
+    margin-right: 10px;
+      position: relative;
+      width: 97%;
+      margin: auto;
+      overflow: hidden;
+      background: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .slider-title1 {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .cards1 {
+      display: flex;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .card1 {
+      min-width: 180px;
+      height: 220px;
+      margin-right: 10px;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .prev1 {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: #fff;
+      border: 1px solid #ccc;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 50%;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    .next1 {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: #fff;
+      border: 1px solid #ccc;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 50%;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    .prev1 { left: 5px; }
+    .next1 { right: 5px; }
+
+    .card1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card1 img{
+        width: 100px;
+        height: 100px;
+    }
+    .card1 button{
+        background-color: #ffd814;
+        border-radius: 100px;
+        border: none;
+        width: 100px;
+    }
+    .card1 p:nth-child(3){
+        color: #ffd814;
+        font-size: 15px;
+    }
+    .card1 p:nth-child(4){
+        font-size: 20px;
+    }
+    .card1 sup{
+        font-size: 10px;
+    }
+
+    /* slider container code ---two*/
+
+
+    .slider-container2 {
+    transform: translateY(-130px);
+    margin-left: 10px;
+    margin-right: 10px;
+      position: relative;
+      width: 97%;
+      margin: auto;
+      overflow: hidden;
+      background: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .slider-title2 {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .cards2 {
+      display: flex;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .card2 {
+      min-width: 180px;
+      height: 220px;
+      margin-right: 10px;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .prev2 {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: #fff;
+      border: 1px solid #ccc;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 50%;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    .next2 {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: #fff;
+      border: 1px solid #ccc;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 50%;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    .prev2 { left: 5px; }
+    .next2 { right: 5px; }
+
+
+    .card2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card2 img{
+        transform: translateY(-30px);
+        width: 100px;
+        height: 100px;
+    }
+    .card2 div{
+        transform: translateX(-50px);
+        margin-top: 10px;
+        width: 50px;
+        height: 50px;
+        background-color: #ffd814;
+        color:rgb(12, 10, 10);
+        border-radius: 50%;
+        text-align: center;
+        z-index: 3;
+    }
+
+    
+    .card2 button{
+        transform: translateY(-25px);
+        background-color: #ffd814;
+        border-radius: 100px;
+        border: none;
+        width: 100px;
+    }
+    .card2 p:nth-child(3){
+        transform: translateY(-30px);
+    }
+    .card2 p:nth-child(4){
+        transform: translateY(-30px);
+        color: #ffd814;
+        font-size: 15px;
+    }
+    .card2 p:nth-child(5){
+        transform: translateY(-30px);
+        font-size: 20px;
+    }
+    .card2 sup{
+        transform: translateY(-30px);
+        font-size: 10px;
+    }
+    .card2 sub {
+        text-decoration: line-through;
+        text-decoration-thickness: 1px;
+        text-decoration-color: rgb(7, 7, 7);
+    
+}
