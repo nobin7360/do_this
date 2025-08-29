@@ -84,3 +84,41 @@ document.addEventListener('DOMContentLoaded', () => {
   startAuto();
   setActiveDot();
 });
+
+
+
+
+
+//slider container code for one
+
+let index1 = 0;
+    const visibleCards1 = 4; 
+
+    function moveSlide(step) {
+      const cards1 = document.getElementById("cards1");
+      const total1 = cards1.children.length;
+      index1 = index1 + step;
+
+      if (index1 < 0) index1 = 0;
+      if (index1 > total1 - visibleCards1) index1 = total1 - visibleCards1;
+
+      cards1.style.transform = `translateX(${-index1 * 190}px)`;
+    }
+
+
+    //slider container code for two
+
+let index2 = 0;
+    const visibleCards2 = 4; 
+
+    function moveSlide(step) {
+      const cards2 = document.getElementById("cards2");
+      const total2 = cards2.children.length;
+      index2 = index2 + step;
+
+      if (index2 < 0) index2 = 0;
+      if (index2 > total2 - visibleCards2) index2 = total2 - visibleCards2;
+
+      cards2.style.transform = `translateX(${-index2 * 190}px)`;
+    }
+
