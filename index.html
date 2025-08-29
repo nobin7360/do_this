@@ -5,32 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gadgets House</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/main_section.css">
 </head>
 <body>
-    <header>
-        <div class="mini-bar">
-            <div class="bar-box item1">
-                <i class="fa-solid fa-envelope"></i>nobinchandra1@gmail.com &nbsp | &nbsp
-                <i class="fa-solid fa-phone"></i>+8801866338944
-            </div>
-            <div class="bar-box item2">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-solid fa-inbox"></i>
-                <i class="fa-brands fa-youtube"></i>
-                <i class="fa-solid fa-phone-volume"></i>
-            </div>
-        </div>
-    </header>
+    
     <section class="nav">
         <div class="nav-container">
             <div class="header-main1">
                 <img src="images/logo.png" alt="">
             </div>
             <div class="header-main2 menu">
-                <a href="#" class="nav-option">HOME</a><a href="#" class="nav-option">ALL CATEGORIES</a><a href="#" class="nav-option">PRODUCTS</a><a href="#" class="nav-option">TRACK ORDER</a><a href="#" class="nav-option">MY WISHLIST</a>
+                <a href="#" class="nav-option">HOME</a>
+                <a href="#" class="nav-option">
+
+
+                    <select name="option" id="option">
+ 
+
+
+  <option value="" disabled selected>CATEGORIES</option>
+  <option value="arduino">Arduino</option>
+  <option value="raspberry-pi">Raspberry Pi</option>
+  <option value="stepper-motor">Stepper Motor</option>
+  <option value="dc-motor">DC Motor</option>
+  <option value="servo-motor">Servo Motor</option>
+  <option value="ultrasonic-sensor">Ultrasonic Sensor</option>
+  <option value="temperature-sensor">Temperature Sensor</option>
+  <option value="led">LED</option>
+  <option value="breadboard">Breadboard</option>
+  <option value="jumper-wires">Jumper Wires</option>
+</select>
+
+
+
+
+
+                </a>
+                <a href="#" class="nav-option">OFFERS</a>
+                <a href="#" class="nav-option">CUSTOMER SERVICE</a>
+                <a href="#" class="nav-option">GIFT CARD</a>
             </div>
             <div class="header-main3">
                 <div class="search-login">
@@ -43,26 +57,187 @@
                 <div class="search-login user"><div><i class="fa-solid fa-user"></i></div><div>SignUp/Login</div></div>
             </div>
         </div>
+
     </section>
-   <section class="slider" id="slider">
+<section class="slider" id="slider">
   <button class="prev" aria-label="Previous">&#10094;</button>
   <div class="slides-track"></div>
   <button class="next" aria-label="Next">&#10095;</button>
   <div class="dots"></div>
+  
 </section>
+
+
+    
+    <main class="main_section">
+
+        <div id="box1" class="imagecontent">
+            <p>Arduino</p>
+            <img src="images/product_image/arduino/pic1.webp" alt=""><br>
+            <a href="">see more</a>
+
+        </div>
+        <div id="box2" class="imagecontent">
+            <P id="box2p">Sensors</P>
+            <div id="box22">
+                <div class="box22c">
+                    <img src="images/product_image/sensor/pic1.jpeg">
+                    <p >Motion sensor</p>
+                </div>
+                <div class="box22c">
+                    <img src="images/product_image/sensor/pic2.png">
+                    <p>Ultrasonic sensor</p>
+                </div>
+                <div class="box22c">
+                    <img src="images/product_image/sensor/pic3.png">
+                    <p>Laser Sensor</p>
+                </div>
+                <div class="box22c">
+                    <img src="images/product_image/sensor/pic4.png">
+                    <p>LDR Sensor</p>
+                </div>
+            </div>
+
+
+            <a href="">explore more</a>
+
+
+
+        </div>
+
+
+
+
+
+        <div id="box3" class="imagecontent">
+            <p>Raspberry Pi</p>
+            <img src="images/product_image/raspberrypi/pic1.webp" alt=""><br>
+            <a href="">see more</a>
+
+
+        </div>
+        <div id="box4" class="imagecontent">
+
+            <P id="box4p">LED</P>
+            <div id="box44">
+                <div class="box44c">
+                    <img src="images/product_image/led/pic1.webp">
+                    <p >5 mm LED</p>
+                </div>
+                <div class="box44c">
+                    <img src="images/product_image/led/pic2.webp">
+                    <p>pre wired led</p>
+                </div>
+                <div class="box44c">
+                    <img src="images/product_image/led/pic3.webp">
+                    <p>usb cob led</p>
+                </div>
+                <div class="box44c">
+                    <img src="images/product_image/led/pic4.webp">
+                    <p>500 pcs led</p>
+                </div>
+            </div>
+            <a href="">explore more</a>
+
+
+
+        </div>
+        <div id="box5" class="imagecontent">
+
+            <P id="box5p">Wires</P>
+            <div id="box55">
+                <div class="box55c">
+                    <img src="images/product_image/wires/pic1.jpeg">
+                    <p >jumpers wires</p>
+                </div>
+                <div class="box55c">
+                    <img src="images/product_image/wires/pic2.jpg">
+                    <p>ground wires</p>
+                </div>
+                <div class="box55c">
+                    <img src="images/product_image/wires/pic3.jpg">
+                    <p>twisted wire</p>
+                </div>
+                <div class="box55c">
+                    <img src="images/product_image/wires/pic4.jpg">
+                    <p>electrical wires</p>
+                </div>
+            </div>
+            <a href="">explore more</a>
+
+
+        </div>
+        <div id="box6" class="imagecontent">
+            <P id="box6p">Battery</P>
+            <div id="box66">
+                <div class="box66c">
+                    <img src="images/product_image/battery/pic1.jpg">
+                    <p >lithium battery</p>
+                </div>
+                <div class="box66c">
+                    <img src="images/product_image/battery/pic2.png">
+                    <p>1.5v battery</p>
+                </div>
+                <div class="box66c">
+                    <img src="images/product_image/battery/pic3.jpeg">
+                    <p>AH battery</p>
+                </div>
+                <div class="box66c">
+                    <img src="images/product_image/battery/pic4.jpg">
+                    <p>polymer battery</p>
+                </div>
+            </div>
+            <a href="">explore more</a>
+
+
+        </div>
+        <div id="box7" class="imagecontent">
+            
+            <p>Breadboards</p>
+            <img src="images/product_image/breadboard/pic1.webp" alt=""><br>
+            <a href="">see more</a>
+
+        </div>
+        <div id="box8" class="imagecontent">
+            <P id="box8p">Dc Motors</P>
+            <div id="box88">
+                <div class="box88c">
+                    <img src="images/product_image/dcmotor/pic1.jpg">
+                    <p >12V dc motor</p>
+                </div>
+                <div class="box88c">
+                    <img src="images/product_image/dcmotor/pic2.webp">
+                    <p>5V dc motor</p>
+                </div>
+                <div class="box88c">
+                    <img src="images/product_image/dcmotor/pic3.jpg">
+                    <p>micro toy motor</p>
+                </div>
+                <div class="box88c">
+                    <img src="images/product_image/dcmotor/pic4.webp">
+                    <p>24V dc motor</p>
+                </div>
+            </div>
+            <a href="">explore more</a>
+
+
+        </div>
+
+    </main>
+
+
+    
+
 
 
     <section class="about">
         <div class="box">
             <h3>ABOUT</h3><div  class="divider"></div>
             <P>A Best Online shop in Bangladesh, All the gadgets are available online. </P>
-            <p>
-               <img src="images/whattsappimg.png" alt="" height="40px"width="60px"> 
-            </p>
         </div>
         <div class="box">
             <h3>CONTACT US</h3><div   class="divider"></div>
-            <p>nobinchandra1@gmail.com</p><br>
+            <p>gadgethub@gmail.com</p><br>
             <p>+8801866338944</p><br>
             <p>Jahangirnagar University</p>
 
@@ -93,7 +268,8 @@
             Powered By Nobin Shahriar Torun
         </div>
 
-        <script type="text/javascript" src="index.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
     </footer>
+
 </body>
 </html>

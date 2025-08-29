@@ -1,8 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-
+body{
+   background-color:#e3e6e6 ;
+   overflow-x: hidden;
+}
 /* Mini-bar design */
 
 .mini-bar{
@@ -22,6 +26,7 @@
 /* Navbar design */
 
 .nav{
+    width: 100vw;
     position: sticky;
     top: 0;
     padding: 0 20px;
@@ -69,7 +74,7 @@
 .app-search {
     display: flex;
     align-items: center;
-    border: 2px solid #ff0080;
+    border: 2px solid #232f3e;
     border-radius: 4px;
     overflow: hidden;
     height: 40px;
@@ -82,7 +87,7 @@
     font-size: 14px;
 }
 .app-search button {
-    background-color: #ff0080;
+    background-color: #232f3e;
     border: none;
     height: 100%;
     width: 40px;
@@ -99,11 +104,12 @@
 /* slider design */
 .slider {
   position: relative;
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
+  width: 100vw;
+  height: 70vh;
+  margin-left: 10px;
+  margin-right: 10px;
   overflow: hidden;
-  padding: 40px 0 40px 0;
+  
   
 }
 
@@ -115,20 +121,19 @@
 
 /* Each slide takes full width */
 .slide { 
-    min-width: 100%;
+    min-width: 100vw;
  }
 .slide img {
-  width: 100%;
-  max-height: auto;
-  height: 55vh;          /* responsive height */
-  object-fit: cover;
+  width: 100vw;
+  height: 70vh;      
+  object-fit:cover;
   display: block;
 }
 
 /* Prev/Next buttons */
 .prev, .next {
   position: absolute;
-  top: 50%;
+  top: 30%;
   transform: translateY(-50%);
   background: rgba(0,0,0,0.5);
   color: #fff;
@@ -140,25 +145,12 @@
   z-index: 2;
 }
 .prev { left: 10px; }
-.next { right: 10px; }
+.next { right: 30px; }
 
 /* Dots over image at bottom-center */
-.dots {
-  position: absolute;
-  bottom: 10px;
-  width: 100%;
-  text-align: center;
-  z-index: 1;
-}
-.dot {
-  display: inline-block;
-  width: 10px; height: 10px;
-  margin: 0 4px;
-  background: rgba(105, 99, 99, 0.6);
-  border-radius: 50%;
-  cursor: pointer;
-}
-.dot.active { background: #d12828; }
+
+
+
 
 
 /* About section design */
@@ -167,7 +159,7 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 30px;
     padding: 40px 10px;
-    background-color: #e8007c;
+    background-color: #232f3e;
 }
 .box{
     display: block;
@@ -212,5 +204,12 @@
 }
 .itm3{
     color: #51514f;
+    font-weight: 600;
+}
+
+
+#option{
+    border: none;
+    font-size:14.4px ;
     font-weight: 600;
 }
