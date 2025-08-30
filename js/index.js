@@ -138,3 +138,16 @@ let index3 = 0;
 
       cards3.style.transform = `translateX(${-index3 * 190}px)`;
     }
+
+
+  // code for selector
+
+  function goToPage(select) {
+  const page = select.value;
+  if(page) {
+    window.location.href = page; 
+  }
+}
+
+
+    
