@@ -94,10 +94,10 @@ document.addEventListener('DOMContentLoaded', () => {
 let index1 = 0;
     const visibleCards1 = 4; 
 
-    function moveSlide(step) {
+    function moveSlide1(step1) {
       const cards1 = document.getElementById("cards1");
       const total1 = cards1.children.length;
-      index1 = index1 + step;
+      index1 = index1 + step1;
 
       if (index1 < 0) index1 = 0;
       if (index1 > total1 - visibleCards1) index1 = total1 - visibleCards1;
@@ -111,10 +111,10 @@ let index1 = 0;
 let index2 = 0;
     const visibleCards2 = 4; 
 
-    function moveSlide(step) {
+    function moveSlide2(step2) {
       const cards2 = document.getElementById("cards2");
       const total2 = cards2.children.length;
-      index2 = index2 + step;
+      index2 = index2 + step2;
 
       if (index2 < 0) index2 = 0;
       if (index2 > total2 - visibleCards2) index2 = total2 - visibleCards2;
@@ -122,3 +122,19 @@ let index2 = 0;
       cards2.style.transform = `translateX(${-index2 * 190}px)`;
     }
 
+
+      //slider container code for three
+
+let index3 = 0;
+    const visibleCards3 = 4; 
+
+    function moveSlide3(step3) {
+      const cards3 = document.getElementById("cards3");
+      const total3 = cards3.children.length;
+      index3 = index3 + step3;
+
+      if (index3 < 0) index3 = 0;
+      if (index3 > total3 - visibleCards3) index3 = total3 - visibleCards3;
+
+      cards3.style.transform = `translateX(${-index3 * 190}px)`;
+    }
