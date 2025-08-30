@@ -432,3 +432,108 @@
     
     }
     
+
+ /* slider three */
+
+.slider-container3 {
+    transform: translateY(-110px);
+    margin-left: 10px;
+    margin-right: 10px;
+      position: relative;
+      width: 97%;
+      margin: auto;
+      overflow: hidden;
+      background: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .slider-title3 {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .cards3 {
+      display: flex;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .card3 {
+      min-width: 180px;
+      height: 220px;
+      margin-right: 10px;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .prev3 {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: #fff;
+      border: 1px solid #ccc;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 50%;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    .next3 {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: #fff;
+      border: 1px solid #ccc;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 50%;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    .prev3 { left: 5px;z-index: 5; }
+    .next3 { right: 5px;z-index: 5; }
+    
+
+.card3{
+    display: flex;
+    flex-direction: column;
+}
+   
+.card3 img{
+    width: 100px;
+    height: 100px;
+}
+
+.card3 p:nth-child(2){
+    font-size: 20px;
+}
+
+.card3 p:nth-child(3){
+    color:#ffd814 ;
+}
+.card3 p:nth-child(4){
+    font-size: 10px;
+}
+.card3 p:nth-child(5){
+    font-size: 20px;
+}
+.card3 button{
+        margin-top: 5px;
+        background-color: #ffd814;
+        border-radius: 100px;
+        border: none;
+        width: 100px;
+}
+
+.card3 sup{
+    font-size: 10px;
+}
+

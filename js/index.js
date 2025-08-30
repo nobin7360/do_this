@@ -122,3 +122,19 @@ let index2 = 0;
       cards2.style.transform = `translateX(${-index2 * 190}px)`;
     }
 
+
+      //slider container code for three
+
+let index3 = 0;
+    const visibleCards3 = 4; 
+
+    function moveSlide3(step3) {
+      const cards3 = document.getElementById("cards3");
+      const total3 = cards3.children.length;
+      index3 = index3 + step3;
+
+      if (index3 < 0) index3 = 0;
+      if (index3 > total3 - visibleCards3) index3 = total3 - visibleCards3;
+
+      cards3.style.transform = `translateX(${-index3 * 190}px)`;
+    }
