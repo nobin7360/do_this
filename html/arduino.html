@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/arduino.css">
+</head>
+<body>
+   
+      <h1>Arduino</h1>
+
+  <!-- Filter controls -->
+  <div class="filters">
+    <label for="priceFilter">Sort by Price:</label>
+    <select id="priceFilter">
+      <option value="none">None</option>
+      <option value="low-high">Low to High</option>
+      <option value="high-low">High to Low</option>
+    </select>
+
+    <label for="ratingFilter">Sort by Rating:</label>
+    <select id="ratingFilter">
+      <option value="none">None</option>
+      <option value="high-low">High to Low</option>
+      <option value="low-high">Low to High</option>
+    </select>
+  </div>
+
+  <div class="container" id="product-container"></div>
+
+
+
+
+
+
+    <script src="../js/arduino.js"></script>
+</body>
+</html>
