@@ -280,8 +280,8 @@
       border-radius: 50%;
       box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     }
-    .prev1 { left: 5px; }
-    .next1 { right: 5px; }
+    .prev1 { left: 5px; z-index:5;}
+    .next1 { right: 5px; z-index: 5;}
 
     .card1{
         display: flex;
@@ -375,8 +375,8 @@
       border-radius: 50%;
       box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     }
-    .prev2 { left: 5px; }
-    .next2 { right: 5px; }
+    .prev2 { left: 5px;z-index: 5; }
+    .next2 { right: 5px;z-index: 5; }
 
 
     .card2{
@@ -430,4 +430,5 @@
         text-decoration-thickness: 1px;
         text-decoration-color: rgb(7, 7, 7);
     
-}
+    }
+    
