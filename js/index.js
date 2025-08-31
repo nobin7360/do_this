@@ -150,4 +150,9 @@ let index3 = 0;
 }
 
 
-    
+//active login form
+
+document.getElementById("login").addEventListener("click", function() {
+    window.location.href = "html/loginform.html"; 
+});
+

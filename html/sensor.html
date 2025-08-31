@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/sensor.css">
+</head>
+<body>
+   
+<section class="nav">
+        <div class="nav-container">
+            <div class="header-main1">
+                <img src="../images/logo.png" alt="">
+            </div>
+            <div class="header-main2 menu">
+                <a href="../index.html" class="nav-option">HOME</a>
+                <a href="#" class="nav-option">
+
+
+          <select name="option" id="option" onchange="goToPage(this)">
+  <option value="" disabled selected>CATEGORIES</option>
+  <option value="../html/arduino.html">Arduino</option>
+  <option value="../html/arduino.html">Raspberry Pi</option>
+  <option value="../html/motor.html">Stepper Motor</option>
+  <option value="../html/motor.html">DC Motor</option>
+  <option value="../html/motor.html">Servo Motor</option>
+  <option value="../html/sensor.html">Ultrasonic Sensor</option>
+  <option value="../html/sensor.html">Temperature Sensor</option>
+  <option value="../html/led.html">LED</option>
+  <option value="../html/breadboard.html">Breadboard</option>
+  <option value="../html/wires.html">Jumper Wires</option>
+  </select>
+
+                </a>
+                <a href="../index.html#offers" class="nav-option">OFFERS</a>
+                <a href="../index.html#customer" class="nav-option">CUSTOMER SERVICE</a>
+                <a href="../html/giftcard.html" class="nav-option">GIFT CARD</a>
+            </div>
+            <div class="header-main3">
+                <div class="search-login">
+                    <div class="app-search">
+                        <input type="text" placeholder="what do you want?">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+                <div class="search-login"><i class="fa-solid fa-cart-shopping"></i></div>
+                <div class="search-login user"><div><i class="fa-solid fa-user"></i></div><div>SignUp/Login</div></div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+      <h1>Sensors</h1>
+
+  <!-- Filter controls -->
+  <div class="filters">
+    <label for="priceFilter">Sort by Price:</label>
+    <select id="priceFilter">
+      <option value="none">None</option>
+      <option value="low-high">Low to High</option>
+      <option value="high-low">High to Low</option>
+    </select>
+
+    <label for="ratingFilter">Sort by Rating:</label>
+    <select id="ratingFilter">
+      <option value="none">None</option>
+      <option value="high-low">High to Low</option>
+      <option value="low-high">Low to High</option>
+    </select>
+  </div>
+
+  <div class="container" id="product-container"></div>
+
+
+
+
+
+
+    <script src="../js/sensor.js"></script>
+</body>
+</html>

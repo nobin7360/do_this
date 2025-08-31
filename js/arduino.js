@@ -108,3 +108,10 @@ document.getElementById("ratingFilter").addEventListener("change", function() {
   }
   displayProducts(list);
 });
+
+function goToPage(select) {
+  const page = select.value;
+  if(page) {
+    window.location.href = page; 
+  }
+}
