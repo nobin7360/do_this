@@ -36,6 +36,7 @@ let products = {
   ]
 };
 
+
 localStorage.setItem("products", JSON.stringify(products));
 let stored = localStorage.getItem("products");
 let parsed = JSON.parse(stored);
@@ -83,6 +84,7 @@ document.getElementById("ratingFilter").addEventListener("change", function() {
   }
   displayProducts(list);
 });
+
 
 // code for selector
 
