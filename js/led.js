@@ -1,8 +1,7 @@
 
-
 let products = {
   "products": [
-    {
+     {
       "id": 1,
       "name": "5 mm LED Diode",
       "fileLocation":"../images/product_image/led/pic1.webp",
@@ -86,13 +85,9 @@ document.getElementById("ratingFilter").addEventListener("change", function() {
   displayProducts(list);
 });
 
-
-// code for selector
-
-  function goToPage(select) {
+function goToPage(select) {
   const page = select.value;
   if(page) {
     window.location.href = page; 
   }
 }
-
