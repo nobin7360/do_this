@@ -235,11 +235,8 @@ body{
   button{
     cursor:pointer;
   }
-  button:hover{
-    background-color: black;
-  }
 
-
+ 
   /* store box color */
   .search-login{
     display: flex;
