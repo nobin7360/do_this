@@ -1,4 +1,5 @@
 
+
 let products = {
   "products": [
     {
@@ -94,3 +95,4 @@ document.getElementById("ratingFilter").addEventListener("change", function() {
     window.location.href = page; 
   }
 }
+
