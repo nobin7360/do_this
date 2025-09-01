@@ -1,14 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/store.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Order List</title>
+<style>
+  .product-card {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin: 10px;
+      display: inline-block;
+      width: 200px;
+      text-align: center;
+  }
+  .product-card img { width: 100%; height: auto; }
+</style>
 </head>
 <body>
-    
+<h1>Order List</h1>
 
-    <script src="../js/store.js"></script>
+<div id="cart-container"></div>
+
+<hr>
+<p>Total Items: <span id="total-items">0</span></p>
+<p>Total Cost: $<span id="total-cost">0</span></p>
+
+
+
+<div class="payment-section">
+    <label for="payment-method">Select Payment Method:</label>
+    <select id="payment-method">
+        <option value="credit-card">Credit Card</option>
+        <option value="paypal">PayPal</option>
+        <option value="bank-transfer">Bank Transfer</option>
+        <option value="cash-on-delivery">Cash on Delivery</option>
+    </select>
+</div>
+<script src="../js/store.js"></script>
+<script>
+    renderCart();
+</script>
 </body>
 </html>
